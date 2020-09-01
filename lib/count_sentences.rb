@@ -18,9 +18,9 @@ class String
     if self == ""
       return 0
     end
-
-    self.split(/[!?.]/)
-    
+    arr = []
+    arr = self.split(/[!?.]/)
+    arr.length
 
   end
 end
