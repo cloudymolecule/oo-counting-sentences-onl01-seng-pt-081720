@@ -25,6 +25,7 @@ class String
       if a == ""
       else
         arr2 << a
+      end
     end
     arr2.length
   end
