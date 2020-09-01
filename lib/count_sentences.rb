@@ -19,8 +19,13 @@ class String
       return 0
     end
     arr = []
+    arr2 = []
     arr = self.split(/[!?.]/)
-    arr.length
-
+    arr.each do |a|
+      if a == ""
+      else
+        arr2 << a
+    end
+    arr2.length
   end
 end
